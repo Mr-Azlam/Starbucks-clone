@@ -1,0 +1,288 @@
+@import url(https://fonts.google.com/specimen/Mooli);
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'poppins', sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #cc9999;
+
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img
+{
+    position: relative;
+    max-width: 80px;
+
+}
+header ul
+{
+    position: relative;
+    display: flex;
+
+}
+header ul li{
+    list-style: none;
+}
+header ul li a:hover{
+    color:#017143;
+}
+header ul li a
+{
+display: inline-block;
+color: #333;
+font-weight: 400;
+margin-left: 40px;
+text-decoration: none;
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox
+{
+    position: relative;
+    max-width: 600px;
+
+}
+.content .textBox h2
+{
+    color: #333;
+    font-size: 4em;
+    list-style: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span
+{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+    
+}
+.content .textBox p
+{
+    color: #333;
+
+}
+.content .textBox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow: 1px 1px 5px black;
+}
+.content .textBox a:hover
+{
+    color: #fefefe;
+box-shadow: 1px 1px 1px black;
+}
+.content .imgBox img
+{
+    width:550px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+    position: absolute;
+    
+
+}
+
+.thumb
+{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.thumb li:hover
+{
+transform: translateY(-20px);
+}
+.thumb li img
+{
+    max-width: 100px;
+}
+.sci
+{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+}
+.sci li
+{
+    list-style: none;
+}
+.sci ul li a i
+{
+    display: inline-block;
+    margin:10px 0;
+    font-size: 2em;
+  color: black;
+}
+
+.sci ul li a :hover
+{
+color: #017143;
+font-size: 2.5em;
+transition: .05s;
+}
+
+.section2 
+{
+    width: 100%;
+    height: 350px; 
+    background-color: #5bd4ac;
+    padding: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+.section2 img
+{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+
+}
+.order .image
+{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+
+    
+}
+.order .image img{
+    width: 100%;
+    height: 400px;
+}
+.section3 .order .desc
+
+{
+    width: 80%;
+    letter-spacing: 0.3pc;
+    justify-items: center;
+}
+
+
+.footer 
+{
+    background: #3ea47a;
+    width: 100%;
+    height: 500px;
+}
+.footer .logo2 img
+{
+    height: 100px;
+    width: 100px;
+}
+.footer .About
+{
+    display: inline-flex;
+    padding: 50px;
+width: 100%;
+height:450px;
+background-color:#2cb77d;
+
+justify-content:space-evenly;
+}
+.About ul
+{
+    list-style: none;
+}
+.About ul h3{
+    padding: 10px;
+}
+.About ul li
+{
+    padding: 10px;
+}
+.About  .qr{
+   margin-left: 10px;
+   width: 200px;
+   justify-content: center;
+   
+}
+.About  .qr a i
+{
+    font-size: 8em;
+    color:#fff;
+    padding: 20px;
+}
+.About  .qr p
+{
+font-size:0.8em;
+margin-left: 10px;
+padding-left: 20px;
+color: #fff;
+}
+.footer .Copy 
+{
+    width: 100%;
+    height: 50px;
+    background: hsl(137, 30%, 95%);
+}
+
+.main{
+    width: 100%;
+    display: flex;
+}
+.img2 img{
+    margin-left: 11px;
+}
+.img3 img{
+    margin-left: 11px;
+}
+
+
+
+
